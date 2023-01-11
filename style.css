@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(./bgc.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* .todo_App {
+    background-color: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(15rem);
+    width: 65%;
+    height: 65%;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+} */
+
+.todo_App_Title {
+    color: teal;
+    text-align: center;
+    font-weight: 600;
+}
+
+.todo_App_Main {
+    /* border: 2px solid dodgerblue;
+   border-radius: 20px; */
+
+}
+
+h1 {
+    color: dodgerblue;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+
+hr {
+    margin-bottom: 25px;
+    width: 70%;
+    border: 2px solid teal;
+}
+
+.inputbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    height: 40px;
+    margin-bottom: 20px;
+}
+input {
+    color: dodgerblue;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid teal;
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn_add {
+    background-color: dodgerblue;
+    padding: 5px 7px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+}
+
+.btn_add:hover {
+    background-color: wheat;
+    color: dodgerblue;
+  
+}
+
+.btn_remove {
+    background-color: rgb(164, 13, 13);
+    padding: 5px 7px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+
+
+.btn_remove:hover {
+    background-color: wheat;
+    color: rgb(164, 13, 13);
+}
+
+
+
+.btn_reset {
+    background-color: teal;
+    padding: 5px 7px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+
+.btn_reset:hover {
+    background-color: wheat;
+    color: teal;
+}
+
+li {
+    color: wheat;
+    background-color: dodgerblue;
+    padding: 7px;
+    width: max-content;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+li:nth-child(even) {
+    color: dodgerblue;
+    background-color: wheat;
+    margin-left: 40px;
+}
+
+@media (max-width:512) {
+    input {
+        color: dodgerblue;
+        font-size: 20px;
+        font-weight: 600;
+        width: 50%;
+        background-color: transparent;
+        border: 2px solid teal;
+        display: flex;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    body {
+        background-image: url(./bgcmobile.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+}
